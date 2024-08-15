@@ -11,7 +11,7 @@ public class CasinoApplication {
     }
 
     public static void main(String[] args) {
-        String playerName = getRandomName("Annet", "Hugo", "Pim", "Tom");
+        String playerName = getRandomName("Annet", "Hugo", "Daan", "Lucas", "Tom");
         long startKapitaal = 1000;
         ChipsService.instance().depositChips(playerName, startKapitaal);
 
